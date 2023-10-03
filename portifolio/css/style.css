@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Heebo", sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #ffff;
+  height: 80px;
+}
+
+header #navbar {
+  display: flex;
+  background-color: #777;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+header #navbar .nav-brand {
+  text-decoration: none !important;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+header #navbar .nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+header #navbar .nav-list .nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+header #navbar .nav-list .nav-item a:hover {
+  color: #777;
+  transition: color 0.3s;
+}
+
+/* SECTION */
+
+main {
+  margin-top: 6rem;
+}
+
+main #banner {
+  display: flex;
+  max-width: 1200px;
+}
